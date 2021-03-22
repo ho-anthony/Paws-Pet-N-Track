@@ -38,7 +38,7 @@
         <Button
             android:id="@+id/MarkButton"
             android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_height="165dp"
             android:layout_marginHorizontal="5dp"
             android:backgroundTint="@color/mark"
             android:text="@string/mark_button" />
@@ -46,7 +46,7 @@
         <Button
             android:id="@+id/NewPackageButton"
             android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_height="165dp"
             android:layout_marginHorizontal="5dp"
             android:layout_toEndOf="@+id/MarkButton"
             android:backgroundTint="@color/new_package"
@@ -55,7 +55,7 @@
         <Button
             android:id="@+id/AddButton"
             android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_height="165dp"
             android:layout_below="@+id/MarkButton"
             android:layout_marginHorizontal="5dp"
             android:backgroundTint="@color/add"
@@ -64,7 +64,7 @@
         <Button
             android:id="@+id/PackagesButton"
             android:layout_width="180dp"
-            android:layout_height="180dp"
+            android:layout_height="165dp"
             android:layout_below="@+id/NewPackageButton"
             android:layout_marginHorizontal="5dp"
             android:layout_toEndOf="@+id/AddButton"
