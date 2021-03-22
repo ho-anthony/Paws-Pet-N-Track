@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Paws Pet N Track</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="mark_button">MARK</string>
+    <string name="new_package_button">NEW\nPACKAGE</string>
+    <string name="add_button">ADD DOG</string>
+    <string name="packages_button">PACKAGES</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>
