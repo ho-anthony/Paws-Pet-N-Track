@@ -13,4 +13,6 @@
     <color name="new_package">#656F92</color>
     <color name="add">#6CACC7</color>
     <color name="packages">#779EBE</color>
+    <color name="history">#A777BE</color>
+    <color name="attendance">#76C4FD</color>
 </resources>

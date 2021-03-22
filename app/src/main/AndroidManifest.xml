@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PawsPetNTrack">
-        <activity android:name=".Packages"></activity>
+        <activity android:name=".History"></activity>
+        <activity android:name=".Attendance" />
+        <activity android:name=".Packages" />
         <activity android:name=".NewPackage" />
         <activity android:name=".Mark" />
         <activity android:name=".AddDog" />

@@ -43,5 +43,15 @@ public class Home extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onAttendance(View v) {
+        Intent intent = new Intent(this, Attendance.class);
+        startActivity(intent);
+    }
+
+    public void onHistory(View v) {
+        Intent intent = new Intent(this, History.class);
+        startActivity(intent);
+    }
+
 
 }

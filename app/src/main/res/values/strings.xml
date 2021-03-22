@@ -8,6 +8,8 @@
     <string name="new_package_button">NEW\nPACKAGE</string>
     <string name="add_button">ADD DOG</string>
     <string name="packages_button">PACKAGES</string>
+    <string name="history_button">HISTORY</string>
+    <string name="attendance_button">ATTENDANCE</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
