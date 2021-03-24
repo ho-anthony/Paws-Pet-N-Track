@@ -10,6 +10,12 @@
     <string name="packages_button">PACKAGES</string>
     <string name="history_button">HISTORY</string>
     <string name="attendance_button">ATTENDANCE</string>
+    <string name="name_text">Name</string>
+    <string name="birthday_text">Birthday</string>
+    <string name="package_text">Packages:</string>
+    <string name="Ten_Day_Button">10 Day</string>
+    <string name="Twenty_Day_Button">20 Day</string>
+    <string name="Save_Button">Save Changes</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.

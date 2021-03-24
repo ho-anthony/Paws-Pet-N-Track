@@ -14,22 +14,72 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:background="@color/divider"
-        android:gravity="bottom"
+        android:gravity="center"
         android:orientation="vertical"
         android:paddingBottom="10dp">
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Add" />
+        <ImageView
+            android:id="@+id/AddPicture"
+            android:layout_width="91dp"
+            android:layout_height="78dp"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:gravity="center">
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:paddingHorizontal="50dp">
+
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:autofillHints="@string/name_text"
+            android:ems="10"
+            android:hint="@string/name_text"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:autofillHints="@string/birthday_text"
+            android:ems="10"
+            android:hint="@string/birthday_text"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Package"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/package_text"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/TenDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/Ten_Day_Button" />
+
+        <Button
+            android:id="@+id/TwentyDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:text="@string/Twenty_Day_Button" />
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Save_Button" />
     </LinearLayout>
 
 </LinearLayout>
